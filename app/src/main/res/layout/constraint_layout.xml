@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="388dp"
+        android:layout_height="74dp"
+        android:background="#6831a6"
+        android:text="   Card Activity"
+        android:textSize="25sp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="350dp"
+        android:layout_height="144dp"
+        android:background="@android:color/white"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="242dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="350dp"
+        android:layout_height="147dp"
+        android:background="@android:color/white"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="404dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="354dp"
+        android:layout_height="145dp"
+        android:background="@android:color/white"
+        android:drawablePadding="black"
+        android:lines="black"
+        android:text="TextView"
+        android:visibility="visible"
+        tools:drawablePadding="2dp"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="81dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="60dp"
+        android:layout_height="107dp"
+        app:srcCompat="@drawable/wonder"
+        tools:layout_editor_absoluteX="308dp"
+        tools:layout_editor_absoluteY="62dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="71dp"
+        android:layout_height="107dp"
+        app:srcCompat="@drawable/hawk"
+        tools:layout_editor_absoluteX="297dp"
+        tools:layout_editor_absoluteY="226dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="100dp"
+        android:layout_height="73dp"
+        app:srcCompat="@drawable/harley"
+        tools:layout_editor_absoluteX="279dp"
+        tools:layout_editor_absoluteY="404dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="125dp"
+        android:layout_height="24dp"
+        android:text="Wonder Woman"
+        android:textColor="@android:color/black"
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="90dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="127dp"
+        android:layout_height="26dp"
+        android:text="Superhero"
+        android:textColor="@android:color/black"
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="330dp"
+        android:layout_height="67dp"
+        android:text="Before she was Wonder Woman (Gal Gadot), she was Diana, princess of the Amazons, trained to be an unconquerable warrior."
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="148dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="125dp"
+        android:layout_height="24dp"
+        android:text="Hawk Girl"
+        android:textColor="@android:color/black"
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="255dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="127dp"
+        android:layout_height="26dp"
+        android:text="Superhero"
+        android:textColor="@android:color/black"
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="279dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="330dp"
+        android:layout_height="76dp"
+        android:text="Born on the planet Thanagar, Shayera Hol joined the police force in her adolescent years and grew to become one of the planet's fiercest warriors"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="310dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="125dp"
+        android:layout_height="24dp"
+        android:text="Harley Quinn"
+        android:textColor="@android:color/black"
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="414dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="127dp"
+        android:layout_height="26dp"
+        android:text="Supervillain"
+        android:textColor="@android:color/black"
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="438dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="330dp"
+        android:layout_height="76dp"
+        android:text="Harley Quinn is a frequent accomplice and lover of the Joker, whom she met while working as a psychiatrist at Gotham City's Arkham Asylum, where the Joker was a patient."
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="475dp" />
+
+</android.support.constraint.ConstraintLayout>

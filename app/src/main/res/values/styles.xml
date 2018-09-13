@@ -1,0 +1,52 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="texta">
+        <item name="android:layout_width">388dp</item>
+        <item name="android:layout_height">74dp</item>
+        <item name="android:background">#6831a6</item>
+        <item name="android:text">Card Activity</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="textb">
+        <item name="android:id">@+id/textView2</item>
+        <item name="android:layout_width">350dp</item>
+        <item name="android:layout_height">144dp</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:text">TextView</item>
+    </style>
+
+    <style name="textc">
+            <item name="android:layout_width">350dp</item>
+            <item name="android:layout_height">147dp</item>
+            <item name="android:background">@android:color/white</item>
+            <item name="android:text">TextView</item>
+    </style>
+
+    <style name="textd">
+        <item name="android:layout_width">354dp</item>
+        <item name="android:layout_height">145dp</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:drawablePadding">"black</item>
+        <item name=""></item>
+        <item name=""></item>
+        <item name=""></item>
+
+        android:layout_width="354dp"
+        android:layout_height="145dp"
+        android:background="@android:color/white"
+        android:drawablePadding="black"
+        android:lines="black"
+        android:text="TextView"
+        android:visibility="visible"
+    </style>
+</resources>
